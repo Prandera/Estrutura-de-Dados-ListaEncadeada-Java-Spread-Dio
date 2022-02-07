@@ -71,7 +71,7 @@ public class ListaEncadeada<T> {
 
     private void validaIndice(int index) {
         if (index >= size()) {
-            int ultimoIndice = size() - 1;
+            int ultimoIndice = size();
             throw new IndexOutOfBoundsException(
                     "Não existe conteudo no indice " + index + ". O ultimo conteudo esta no indice " + ultimoIndice + '.'
             );

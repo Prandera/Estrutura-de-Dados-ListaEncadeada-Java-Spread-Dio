@@ -25,5 +25,7 @@ public class Main {
         System.out.println(minhaLista.remove(3));
         System.out.println(minhaLista);
 
+        //Testando o metodo Valida Indice e o seu respectivo throw
+        System.out.println(minhaLista.get(8));
     }
 }
